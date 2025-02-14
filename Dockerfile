@@ -1,4 +1,4 @@
-FROM alpine:3.20.2
+FROM alpine:3.21.3
 MAINTAINER Sebastian Daehne <daehne@rshc.de>
 
 RUN apk update && apk add make g++ gcc git libusb-dev
